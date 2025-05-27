@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>iPhone Dummy Store </title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <div class="bg-black text-white px-5 py-4">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-lg font-bold">iPhone Dummy Store 📱</h1>
+      <ul class="flex gap-4 text-sm">
+        <li><a href="#home" class="hover:text-blue-400">Home</a></li>
+        <li><a href="#products" class="hover:text-blue-400">Shop</a></li>
+        <li><a href="#about" class="hover:text-blue-400">About</a></li>
+        <li><a href="#testimonials" class="hover:text-blue-400">Reviews</a></li>
+        <li><a href="#contact" class="hover:text-blue-400">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="home" class="bg-cover bg-center h-72 md:h-[420px] flex items-center justify-center" style="background-image: url('https://www.apple.com/v/iphone/home/bn/images/meta/iphone__e4sjokz32aui_og.png');">
+    <div class="bg-black bg-opacity-60 p-6 text-white rounded-lg text-center">
+      <h2 class="text-3xl md:text-5xl font-bold">Get a IPhone at a Dummy Price</h2>
+      <p class="text-sm mt-2">Latest models. Dummy price. Trusted by students & pros.</p>
+    </div>
+  </div>
+
+  <div id="products" class="max-w-6xl mx-auto mt-12 px-4">
+    <h2 class="text-2xl font-bold text-center mb-8">Shop iPhones</h2>
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+      <div class="bg-white rounded shadow">
+        <img src="https://images-cdn.ubuy.co.in/658da0be910005387c5e2673-restored-apple-iphone-15-pro-max-256gb.jpg" class="w-full h-64 object-contain">
+        <div class="p-4">
+          <h3 class="font-semibold text-lg">iPhone 15 Pro Max</h3>
+          <p class="text-sm mt-1">Dummy price. Starts at ₹1,59,900.</p>
+          <button class="mt-4 px-4 py-1 bg-black text-white text-sm rounded">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="bg-white rounded shadow">
+        <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/mobile/3/5/l/-original-imaghx9qmgqsk9s4.jpeg?q=90&crop=false" class="w-full h-64 object-contain">
+        <div class="p-4">
+          <h3 class="font-semibold text-lg">iPhone 14</h3>
+          <p class="text-sm mt-1">Dummy price. Starts at ₹69,900.</p>
+          <button class="mt-4 px-4 py-1 bg-black text-white text-sm rounded">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="bg-white rounded shadow">
+        <img src="https://fonezone.me/cdn/shop/products/7plus_2.jpg?v=1725343976" class="w-full h-64 object-contain">
+        <div class="p-4">
+          <h3 class="font-semibold text-lg">iPhone SE</h3>
+          <p class="text-sm mt-1">Dummy price. Starts at ₹49,900.</p>
+          <button class="mt-4 px-4 py-1 bg-black text-white text-sm rounded">Buy Now</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="about" class="max-w-4xl mx-auto mt-20 px-4 text-center">
+    <h2 class="text-xl font-semibold mb-3">About iPhone Dummy Store</h2>
+    <p class="text-sm text-gray-700">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+    </p>
+  </div>
+
+  <div id="testimonials" class="max-w-5xl mx-auto mt-20 px-4">
+    <h2 class="text-2xl font-bold text-center mb-6">What Users Say</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="bg-white rounded shadow p-4">
+        <p class="text-sm">“Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores modi esse adipisci at aperiam, sapiente quasi ducimus dolore unde provident!”</p>
+        <h4 class="text-sm mt-2 font-semibold">– Amaan, Class 11</h4>
+      </div>
+      <div class="bg-white rounded shadow p-4">
+        <p class="text-sm">“Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores modi esse adipisci at aperiam, sapiente quasi ducimus dolore unde provident!”</p>
+        <h4 class="text-sm mt-2 font-semibold">– Riya, College</h4>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="max-w-4xl mx-auto mt-20 px-4 text-center">
+    <h2 class="text-xl font-semibold mb-2">Contact iPhone Dummy Store</h2>
+    <p class="text-sm mb-4">Want to ask something? Fill the form below.</p>
+
+    <form class="bg-white p-6 rounded shadow max-w-md mx-auto space-y-4 text-left">
+      <div>
+        <label class="block text-sm mb-1">Name</label>
+        <input type="text" class="w-full border px-3 py-2 rounded" placeholder="Your name">
+      </div>
+      <div>
+        <label class="block text-sm mb-1">Message</label>
+        <textarea rows="3" class="w-full border px-3 py-2 rounded" placeholder="What's your question?"></textarea>
+      </div>
+      <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Send</button>
+    </form>
+  </div>
+
+  <footer class="mt-20 bg-black text-white py-4">
+    <p class="text-center text-xs">© 2025 iPhone Dummy Store. Built for fun for GRUB(Hackclub) by Ayaad. Not an official Apple site.</p>
+  </footer>
+
+</body>
+</html>
